@@ -1,0 +1,462 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>HTML Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<style>
+		body {
+			width: 100% !important;
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			margin: 0;
+			padding: 0;
+			line-height: 100%;
+		}
+
+		[style*="Verdana"] {font-family: "Verdana", "Tahoma", sans-serif}
+
+		img {
+			outline: none;
+			text-decoration: none;
+			border:none;
+			-ms-interpolation-mode: bicubic;
+			max-width: 100%!important;
+			margin: 0;
+			padding: 0;
+			display: block;
+		}
+      
+      p {
+         margin: 0;
+         padding: 0;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+         margin: 0;
+      }
+   
+		table td {
+			border-collapse: collapse;
+		}
+   
+		table {
+			border-collapse: collapse;
+		}
+
+      .header-td {
+         padding-top: 42px;
+         padding-bottom: 24px
+      }
+
+      .header-td__title {
+         font-weight: 700;
+         font-size: 22px;
+         line-height: 30px;
+         color: #28355c;
+      }
+
+      .main {
+         margin-bottom: 30px;
+      }
+
+      .manual-td {
+         padding-top: 24px;
+         padding-bottom: 16px;
+      }
+
+      .manual-description {
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 22px;
+         color: #28355c;
+      }
+
+      .list-description__title {
+         font-family: 'Verdana';
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 22px;
+         color: #28355c;
+         padding-top: 16px;
+         padding-bottom: 16px;
+      }
+
+      .description__list {
+         margin: 0;
+         padding: 0 0 0 16px;
+         list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10" height="10"><circle fill="blue" cx="5" cy="5" r="2"/></svg>');
+      }
+
+      .description__list li {
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 18px;
+         color: #2C3D69;
+      }
+
+      .go-lessons {
+         padding-top: 28px;
+         padding-bottom: 50px;
+      }
+
+      .button {
+         background: #2855af;
+         border-radius: 5px;
+      }
+      
+      .button a {
+         display: inline-block;
+         text-decoration: none;
+         font-weight: 700;
+         font-size: 14px;
+         line-height: 24px;
+         text-align: center;
+         color: #FFFFFF;
+         padding-top: 12px;
+         padding-bottom: 16px;
+         padding-right: 34px;
+         padding-left: 34px;
+      }
+
+      .help-accaunt {
+         padding-top: 30px;
+      }
+
+      .table-600 {
+         border-radius: 2px;
+      }
+
+      .help-accaunt__title {
+         padding-top: 30px;
+      }
+
+      .help-accaunt__title h2 {
+         font-weight: 700;
+         font-size: 14px;
+         line-height: 22px;
+         text-align: center;
+         color: #28355C;
+         margin-bottom: 24px;
+      }
+
+      .help-accaunt__description p {
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 22px;
+         text-align: center;
+         color: #28355C;
+         margin-bottom: 28px;
+      }
+      
+      .description-button {
+         padding-bottom: 30px;
+      }
+
+      .help-accaunt__description-button {
+         border-radius: 5px;
+      }
+
+      .help-accaunt__description-button a {
+         display: inline-block;
+         text-decoration: none;
+         font-weight: 700;
+         font-size: 14px;
+         line-height: 24px;
+         text-align: center;
+         color: #2855af;
+         padding-top: 12px;
+         padding-bottom: 16px;
+         padding-right: 34px;
+         padding-left: 34px;
+         border-radius: 5px;
+      }
+
+      .footer__header {
+         padding-top: 32px;
+         padding-bottom: 50px;
+      }
+
+      .footer__header p {
+         font-weight: 700;
+         font-size: 14px;
+         line-height: 22px;
+         text-align: center;
+         color: #28355c;
+      }
+
+      .footer__header p + p {
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 22px;
+         text-align: center;
+         color: #28355c;
+      }
+
+      .footer-nav__item a {
+         text-decoration: none;
+         color: #2855af;
+         font-weight: 700;
+         font-size: 12px;
+         line-height: 20px;
+         text-align: center;
+         cursor: pointer;
+      }
+
+      .social {
+         padding-top: 16px;
+         padding-bottom: 32px;
+      }
+
+      .table-640 {
+         border-top: 1px solid #d7dff0;
+      }
+
+      .footer__info {
+         padding-bottom: 80px;
+      }
+
+      .footer__mailing-info {
+         padding-top: 16px;
+         padding-bottom: 6px;  
+      }
+      
+
+      .footer__mailing-info p {
+         font-weight: 400;
+         font-size: 11px;
+         line-height: 16px;
+         text-align: center;
+         color: #28355C;
+      }
+
+      .footer__mailing-disabled a {
+         font-weight: 400;
+         font-size: 11px;
+         line-height: 16px;
+         text-align: center;
+         color: #28355C;
+         cursor: pointer;
+      }
+
+      .logo {
+         padding-top: 38px;
+         padding-bottom: 28px;
+      }
+
+      @media (max-width: 620px) {
+         .table-640 {
+            width: 580px !important;
+         }
+
+         .table-600 {
+            width: 550px !important;
+         }
+
+         .table-500 {
+            width: 480px !important;
+         }
+
+         .table-315 {
+            width: 295px !important;
+         }
+
+         .table-240 {
+            width: 230px !important;
+         }
+      }
+	</style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+	<div style="font-size:0px;font-color:#2855af;opacity:0;visibility:hidden;width:0;height:0;">МойСклад</div>
+	<table cellpadding="0" cellspacing="0" width="100%" bgcolor="#f5f5f5">
+      <tr>
+         <td>
+            <table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+               <tr>
+                  <td class="logo">
+                     <a href="#" target="_blank">
+                        <img src="logo.png" alt="Логотип компании МойСклад">
+                     </a>
+                  </td>
+               </tr>
+            </table>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <table class="main table-600" cellpadding="0" cellspacing="0" width="600" align="center" bgcolor="#ffffff">
+               <tr>
+                  <td class="header-td">
+                     <table class="table-500" cellpadding="0" cellspacing="0" width="500" align="center">
+                        <tr>
+                           <td class="header-td__title" align="left" style="font-family: Verdana, Arial, Helvetica, sans-serif;">Как начать работать?</td>
+                        </tr>
+                     </table>
+                  </td>
+               </tr>
+               <tr>
+                  <td class="banner-td" class="main-tr">
+                     <table class="table-500" cellpadding="0" cellspacing="0" width="500" align="center">
+                        <tr>
+                           <td>
+                              <img src="./banner.jpg" alt="instructions on how to get started">
+                           </td>
+                        </tr>
+                     </table>
+                  </td>
+               </tr>
+               <tr>
+                  <td class="manual-td">
+                     <table class="table-500" cellpadding="0" cellspacing="0" width="500" align="center">
+                        <tr>
+                           <td class="manual-description">
+                              <p style="font-family: Verdana, Arial, Helvetica, sans-serif;">Пошаговая <a href="#" target="_blank">инструкция</a> помогает быстро разобраться с&nbsp;основными возможностями МоегоСклада и&nbsp;настроить его под себя. Все настройки занимают 15&nbsp;минут.</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="list-description__title" style="font-family: Verdana, Arial, Helvetica, sans-serif;">
+                              Возможности МоегоСклада:
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="description">
+                              <ul class="description__list">
+                                 <li style="font-family: Verdana, Arial, Helvetica, sans-serif;">Управление торговлей и складской учет</li>
+                                 <li style="font-family: Verdana, Arial, Helvetica, sans-serif;">Бэк-офис для онлайн-продаж</li>
+                                 <li style="font-family: Verdana, Arial, Helvetica, sans-serif;">Автоматизация розницы</li>
+                                 <li style="font-family: Verdana, Arial, Helvetica, sans-serif;">Управление производством</li>
+                                 <li style="font-family: Verdana, Arial, Helvetica, sans-serif;">Работа с клиентами и поставщиками (CRM)</li>
+                                 <li style="font-family: Verdana, Arial, Helvetica, sans-serif;">Поддержка обязательной маркировки</li>
+                              </ul>
+                           </td>
+                        </tr>
+                     </table>
+                  </td>
+               </tr>
+               <tr>
+                  <td class="go-lessons">
+                     <table class="table-240" cellpadding="0" cellspacing="0" width="240" align="center">
+                        <tr>
+                           <td class="button" align="center" width="240">
+                              <a href="#" target="_blank" style="font-family: Verdana, Arial, Helvetica, sans-serif;">Начать обучение</a>
+                           </td>
+                        </tr>
+                     </table>
+                  </td>
+               </tr>
+            </table>
+         </td>
+      </tr>
+      <tr class="help-accaunt">
+         <td>
+            <table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center" bgcolor="#cbdeff">
+               <tr>
+                  <td>
+                     <table class="table-500" cellpadding="0" cellspacing="0" width="500" align="center">
+                        <tr>
+                           <td class="help-accaunt__title" align="center">
+                              <h2 style="font-family: Verdana, Arial, Helvetica, sans-serif;">Мы с удовольствием поможем разобраться в МоемСкладе.</h2>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="help-accaunt__description" align="center">
+                              <p style="font-family: Verdana, Arial, Helvetica, sans-serif;">Обучающие видео и&nbsp;наглядные инструкции вы&nbsp;найдете в&nbsp;Центре поддержки. Если у&nbsp;вас останутся вопросы&nbsp;&mdash; пишите в&nbsp;чат. Чтобы помочь, сотрудники могут спросить название вашего аккаунта: account@admin</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="description-button">
+                              <table class="table-240" cellpadding="0" cellspacing="0" width="240" align="center">
+                                 <tr>
+                                    <td class="help-accaunt__description-button" bgcolor="#b4cdff" align="center">
+                                       <a href="#" target="_blank" style="font-family: Verdana, Arial, Helvetica, sans-serif;">У меня есть вопрос</a>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </td>
+                        </tr>
+                     </table>
+                  </td>
+               </tr>
+            </table>
+         </td>
+      </tr>
+      <tr>
+         <td class="footer" align="center">
+            <table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+               <tr>
+                  <td class="footer__header" align="center">
+                     <p style="font-family: Verdana, Arial, Helvetica, sans-serif;">Желаем успешной работы!</p>
+                     <p style="font-family: Verdana, Arial, Helvetica, sans-serif;">Команда сервиса МойСклад</p>
+                  </td>
+               </tr>
+               <tr>
+                  <td class="footer__nav">
+                     <table class="table-315" cellpadding="0" cellspacing="0" width="315" align="center">
+                        <tr>
+                           <td class="footer-nav__item" align="center">
+                              <a href="#" style="font-family: Verdana, Arial, Helvetica, sans-serif;">Возможности</a>
+                           </td>
+                           <td class="footer-nav__item" align="center">
+                              <a href="#" style="font-family: Verdana, Arial, Helvetica, sans-serif;">Документация</a>
+                           </td>
+                           <td class="footer-nav__item" align="center">
+                              <a href="#" style="font-family: Verdana, Arial, Helvetica, sans-serif;">Поддержка</a>
+                           </td>
+                        </tr>
+                     </table>
+                  </td>
+               </tr>
+               <tr>
+                  <td class="social">
+                     <table class="table-122" cellpadding="0" cellspacing="0" align="center" width="122">
+                        <tr>
+                           <td class="footer-nav__social">
+                              <a href="http://vk.com" target="_blank">
+                                 <img src="vk.svg" alt="Вконтакте">
+                              </a>
+                           </td>
+                           <td class="footer-nav__social">
+                              <a href="http://twitter.com" target="_blank">
+                                 <img src="twitter.svg" alt="twitter">
+                              </a>
+                           </td>
+                           <td class="footer-nav__social">
+                              <a href="http://youtube.com" target="_blank">
+                                 <img src="youtube.svg" alt="youtube">
+                              </a>
+                           </td>
+                        </tr>
+                     </table>
+                  </td>
+               </tr>
+            </table>
+            <tr>
+               <td class="footer__info">
+                  <table class="table-640" cellpadding="0" cellspacing="0" width="600" align="center">
+                     <tr>
+                        <td class="footer__mailing-info" align="center">
+                           <p style="font-family: Verdana, Arial, Helvetica, sans-serif;">Вы получили это письмо, так как ранее регистрировались в сервисе МойСклад.</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="footer__mailing-disabled" align="center">
+                           <a style="font-family: Verdana, Arial, Helvetica, sans-serif;" href="#" target="_blank">Отписаться от рассылки</a>
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+         </td>
+      </tr>
+	</table>
+</body>
+
+</html>
